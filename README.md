@@ -54,9 +54,9 @@
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="screenshots/home.png" width="200" alt="首页"><br><sub>首页 · 跟手翻页分类</sub></td>
-      <td align="center"><img src="screenshots/detail.png" width="200" alt="详情"><br><sub>详情 · 线路/选集</sub></td>
-      <td align="center"><img src="screenshots/player.png" width="200" alt="播放"><br><sub>播放 · 手势控制</sub></td>
+      <td align="center"><img src="screenshots/home.jpg" width="200" alt="首页"><br><sub>首页 · 跟手翻页分类</sub></td>
+      <td align="center"><img src="screenshots/bofang.jpg" width="200" alt="详情"><br><sub>详情 · 线路/选集</sub></td>
+      <td align="center"><img src="screenshots/shouye.jpg" width="200" alt="播放"><br><sub>自行体会</sub></td>
     </tr>
   </table>
 </div>
