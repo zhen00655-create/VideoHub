@@ -49,7 +49,6 @@
 
 ## 🖼️ 界面预览
 
-> 截图占位。将软件截图放入仓库后，替换下方 `screenshots/` 路径即可自动展示。
 
 <div align="center">
   <table>
@@ -61,15 +60,6 @@
   </table>
 </div>
 
-<details>
-<summary>📸 如何添加截图</summary>
-
-1. 在仓库根目录新建 `screenshots/` 目录；
-2. 将软件运行截图命名为 `home.png`、`detail.png`、`player.png` 等放入其中；
-3. 提交后上表会自动展示。
-
-> 也可自行增删 `<td>` 列以适配截图数量。
-</details>
 
 ---
 
@@ -189,6 +179,24 @@ yingshicang/
 如发现本项目被用于任何违法违规用途，请立即停止使用并联系仓库维护者。
 
 ---
+## 🖼️ 开发不易，自行打赏一下作者，才有动力，为爱发电
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="screenshots/weixin.jpg" width="200" alt="微信"><br><sub>为爱发电</sub></td>
+      <td align="center"><img src="screenshots/zhifubao.jpg" width="200" alt="支付宝"><br><sub>为爱发电</sub></td>
+   
+    </tr>
+  </table>
+</div>
+
+
+---
+
+
+
+
 
 ## 🤝 贡献
 
