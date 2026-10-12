@@ -1,0 +1,66 @@
+{
+  "app": {
+    /*
+     * 签名配置说明：
+     *   HarmonyOS 的 debug 签名 Profile（.p7b）与 bundleName 强绑定，且由 DevEco 自动签名时
+     *   会登记本机设备 UDID，无法跨项目复制。因此这里默认不绑定 signingConfig，
+     *   命令行构建产出的是 entry-default-unsigned.hap（用于验证编译通过）。
+     *
+     *   要安装到手机：用 DevEco Studio 打开本工程 →
+     *   File > Project Structure > Signing Configs → 勾选 "Automatically generate signature"
+     *   → Apply。DevEco 会把 signingConfigs 自动写回本文件（含密文口令），
+     *   之后直接点 Run 或执行 build.bat 都能出已签名 HAP。
+     */
+    "products": [
+      {
+        "name": "default",
+        "targetSdkVersion": "6.0.2(22)",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": false,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\wsx\\.ohos\\config\\default_yingshicang_fJbry8BAFmUuTuhQgDe4OlXMcl1coNRXqt2Fc8D8S94=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B0F2003E6237A78267D790B70405A99B763358C9406EB56D569261D4C042010B7468F176A59CC4C",
+          "profile": "C:\\Users\\wsx\\.ohos\\config\\default_yingshicang_fJbry8BAFmUuTuhQgDe4OlXMcl1coNRXqt2Fc8D8S94=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\wsx\\.ohos\\config\\default_yingshicang_fJbry8BAFmUuTuhQgDe4OlXMcl1coNRXqt2Fc8D8S94=.p12",
+          "storePassword": "0000001B20D2E5F6FD64E2F6D1560CD02C96DD9891883DA6075440E9718D124AF567761E27D3B865DBD5BF"
+        }
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

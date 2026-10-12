@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "影视观 - 第三方源影视聚合"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "影视观主界面"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "影视观"
+    },
+    {
+      "name": "app_name",
+      "value": "影视观"
+    }
+  ]
+}
